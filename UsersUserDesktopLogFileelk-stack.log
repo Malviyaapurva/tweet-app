@@ -1,0 +1,83 @@
+2021-05-02 23:36:46.568  INFO 224 --- [main] com.tweet.TweetAppApplication            : Starting TweetAppApplication using Java 1.8.0_201 on Lab-637515143495052415-1 with PID 224 (C:\Users\User\Desktop\Project\Tweet-App\target\classes started by User in C:\Users\User\Desktop\Project\Tweet-App)
+2021-05-02 23:36:46.575  INFO 224 --- [main] com.tweet.TweetAppApplication            : No active profile set, falling back to default profiles: default
+2021-05-02 23:36:49.061  INFO 224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-02 23:36:49.138  INFO 224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 2 MongoDB repository interfaces.
+2021-05-02 23:36:50.028  INFO 224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 89 (http)
+2021-05-02 23:36:50.042  INFO 224 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-02 23:36:50.043  INFO 224 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 23:36:50.247  INFO 224 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-02 23:36:50.248  INFO 224 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3425 ms
+2021-05-02 23:36:50.949  INFO 224 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-02 23:36:51.303  INFO 224 --- [cluster-ClusterId{value='608eea3a704fb506ebf219eb', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:50}] to localhost:27017
+2021-05-02 23:36:51.304  INFO 224 --- [cluster-ClusterId{value='608eea3a704fb506ebf219eb', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=116707500}
+2021-05-02 23:36:51.312  INFO 224 --- [cluster-rtt-ClusterId{value='608eea3a704fb506ebf219eb', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:51}] to localhost:27017
+2021-05-02 23:36:51.975  INFO 224 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 23:36:54.443  INFO 224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 89 (http) with context path ''
+2021-05-02 23:36:54.568  INFO 224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-02 23:36:54.570  INFO 224 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-02 23:36:54.571  INFO 224 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 23:36:54.601  INFO 224 --- [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-05-02 23:36:54.601  INFO 224 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 154 ms
+2021-05-02 23:36:54.653  INFO 224 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-05-02 23:36:55.206  INFO 224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-02 23:36:55.228  INFO 224 --- [main] com.tweet.TweetAppApplication            : Started TweetAppApplication in 9.386 seconds (JVM running for 10.223)
+2021-05-02 23:37:52.438  INFO 224 --- [http-nio-89-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 23:37:52.445  INFO 224 --- [http-nio-89-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-02 23:37:52.447  INFO 224 --- [http-nio-89-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-05-02 23:37:52.570  INFO 224 --- [http-nio-89-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:52}] to localhost:27017
+2021-05-02 23:38:39.853  INFO 224 --- [http-nio-89-exec-4] com.tweet.TweetAppApplication            : user found for id124
+2021-05-02 23:38:47.644  INFO 224 --- [http-nio-89-exec-5] com.tweet.TweetAppApplication            : user found for id184
+2021-05-02 23:42:17.228  INFO 3408 --- [main] com.tweet.TweetAppApplication            : Starting TweetAppApplication using Java 1.8.0_201 on Lab-637515143495052415-1 with PID 3408 (C:\Users\User\Desktop\Project\Tweet-App\target\classes started by User in C:\Users\User\Desktop\Project\Tweet-App)
+2021-05-02 23:42:17.236  INFO 3408 --- [main] com.tweet.TweetAppApplication            : No active profile set, falling back to default profiles: default
+2021-05-02 23:42:20.988  INFO 3408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-02 23:42:21.157  INFO 3408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 161 ms. Found 2 MongoDB repository interfaces.
+2021-05-02 23:42:23.829  INFO 3408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 89 (http)
+2021-05-02 23:42:23.853  INFO 3408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-02 23:42:23.854  INFO 3408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 23:42:24.152  INFO 3408 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-02 23:42:24.153  INFO 3408 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6594 ms
+2021-05-02 23:42:24.909  INFO 3408 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-02 23:42:25.135  INFO 3408 --- [cluster-ClusterId{value='608eeb88e2f1b83d9aafefc1', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:53}] to localhost:27017
+2021-05-02 23:42:25.136  INFO 3408 --- [cluster-ClusterId{value='608eeb88e2f1b83d9aafefc1', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=100942000}
+2021-05-02 23:42:25.189  INFO 3408 --- [cluster-rtt-ClusterId{value='608eeb88e2f1b83d9aafefc1', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:54}] to localhost:27017
+2021-05-02 23:42:26.179  INFO 3408 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 23:42:28.966  INFO 3408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 89 (http) with context path ''
+2021-05-02 23:42:29.152  INFO 3408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-02 23:42:29.153  INFO 3408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-02 23:42:29.154  INFO 3408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 23:42:29.214  INFO 3408 --- [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-05-02 23:42:29.216  INFO 3408 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 244 ms
+2021-05-02 23:42:29.241  INFO 3408 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-05-02 23:42:29.643  INFO 3408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-02 23:42:29.724  INFO 3408 --- [main] com.tweet.TweetAppApplication            : Started TweetAppApplication in 14.124 seconds (JVM running for 19.607)
+2021-05-02 23:42:31.891  INFO 3408 --- [http-nio-89-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 23:42:31.891  INFO 3408 --- [http-nio-89-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-02 23:42:31.892  INFO 3408 --- [http-nio-89-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-02 23:44:57.659  INFO 9156 --- [main] com.tweet.TweetAppApplication            : Starting TweetAppApplication using Java 1.8.0_201 on Lab-637515143495052415-1 with PID 9156 (C:\Users\User\Desktop\Project\Tweet-App\target\classes started by User in C:\Users\User\Desktop\Project\Tweet-App)
+2021-05-02 23:44:57.663  INFO 9156 --- [main] com.tweet.TweetAppApplication            : No active profile set, falling back to default profiles: default
+2021-05-02 23:45:00.106  INFO 9156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-02 23:45:00.206  INFO 9156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 2 MongoDB repository interfaces.
+2021-05-02 23:45:01.295  INFO 9156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 89 (http)
+2021-05-02 23:45:01.309  INFO 9156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-02 23:45:01.310  INFO 9156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 23:45:01.469  INFO 9156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-02 23:45:01.469  INFO 9156 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3525 ms
+2021-05-02 23:45:03.174  INFO 9156 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-02 23:45:03.330  INFO 9156 --- [cluster-rtt-ClusterId{value='608eec27b381f57e309753aa', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:55}] to localhost:27017
+2021-05-02 23:45:03.373  INFO 9156 --- [cluster-ClusterId{value='608eec27b381f57e309753aa', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:56}] to localhost:27017
+2021-05-02 23:45:03.374  INFO 9156 --- [cluster-ClusterId{value='608eec27b381f57e309753aa', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=49194000}
+2021-05-02 23:45:04.105  INFO 9156 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-02 23:45:06.005  INFO 9156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 89 (http) with context path ''
+2021-05-02 23:45:06.230  INFO 9156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-02 23:45:06.238  INFO 9156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-02 23:45:06.240  INFO 9156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-02 23:45:06.276  INFO 9156 --- [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-05-02 23:45:06.276  INFO 9156 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 259 ms
+2021-05-02 23:45:06.298  INFO 9156 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-05-02 23:45:06.752  INFO 9156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-02 23:45:06.777  INFO 9156 --- [main] com.tweet.TweetAppApplication            : Started TweetAppApplication in 9.806 seconds (JVM running for 10.464)
+2021-05-02 23:45:08.804  INFO 9156 --- [http-nio-89-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-02 23:45:08.804  INFO 9156 --- [http-nio-89-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-02 23:45:08.807  INFO 9156 --- [http-nio-89-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-05-02 23:45:08.966  INFO 9156 --- [http-nio-89-exec-9] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:57}] to localhost:27017
+2021-05-02 23:45:09.004  INFO 9156 --- [http-nio-89-exec-9] com.tweet.controller.TweetController     : user found for id184
